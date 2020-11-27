@@ -1,7 +1,7 @@
 # Inventory_Management_System
 This Inventory Management System, written in Python (and using SQLite3 database) allows a warehouse to manage and maintain its inventory, monitor its products, their stock quantity, its list of suppliers and distributor, and also past records of supplies, receivals and damages.
 
-#PROJECT DOCUMENTATION
+<h1>PROJECT DOCUMENTATION</h1>
 
 PROJECT NAME: Inventory Management System
 LANGUAGE USED: Python
