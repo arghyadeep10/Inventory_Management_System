@@ -1,11 +1,11 @@
-#PROJECT DOCUMENTATION
+<h1>PROJECT DOCUMENTATION</h1>
 
 PROJECT NAME: Inventory Management System
 LANGUAGE USED: Python
 PROJECT TYPE: Command Line Interface
 AUTHOR NAME: Arghyadeep Acharya
 
-###PROJECT STATS:
+<h3>PROJECT STATS:</h3>
 Number of lines: 4193
 Number of utility functions: 32
 Number of driver functions : 1 (the main() function)
@@ -13,7 +13,7 @@ Database Used: sqlite3
 Database Type: SQL (and permanent database)
 
 
-###HOW TO INITIATE/RUN PROJECT:
+<h3>HOW TO INITIATE/RUN PROJECT:</h3>
 Install Python 3 on your machine
 Open Terminal in your machine
   1. Clone the project and store it in your computer
@@ -70,7 +70,7 @@ These folders are :
 
 > damage_expiry_details/ : stores all the printouts relating to product damage and expiry records
 
-###ABOUT THE PROJECT:
+<h3>ABOUT THE PROJECT:</h3>
 In many parts of the world, shops and businesses still use manual methods to store their inventory data. However
 storing inventory data is one of the things that is most suited for computers. Using a computer program to store
 this data has a lot of benefits:
