@@ -34,7 +34,8 @@ if len(sys.argv) == 2:
         cur.execute("create table printer (slno int);")
         #Creating a Damaged_Expired Table
         cur.execute("create table damaged_expired (slno int primary key, date_of_record date, item_code text, item_name text, stock_qty_prior int, qty_damaged int, stock_qty_after int, damagedORexpired text, notes text, rate real, damage_worth real);")
-        cur.execute("insert into printer values (?)",[0])
+        cur.execute("insert into printer values (?);",[0])
+        conn_db.commit()
         conn_db.close()
         exit(0)
 

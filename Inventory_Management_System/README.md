@@ -30,6 +30,46 @@ Open Terminal in your machine
           $ python main_prog.py use
 
 
+Note: The main_prog.py file runs on the basis of command line arguments. This was a first version of this project. However later I discovered that 
+it can be difficult to run a program with command line arguments inside an IDE when user clicks the run button inside their IDE and doesn't use the
+command line/terminal. Hence I have created a new version. This file is called main_prog_IDE_version.py
+
+After you clone the Inventory_Management_System project to your computer, you can open the project using your preferred IDE and then go to Debug
+Properties. There inside General setting go to option of startup file and enter "main_prog_IDE_version.py". Now when you click the run button,
+your IDE will run this file "main_prog_IDE_version.py" instead of "main_prog.py"
+This new version skips the command line arguments and provides you with the following menu:
+>Welcome
+>Choose from the below options to continue:
+>1. Generate database
+>2. Use system
+>Q. Exit
+>Enter your choice:
+
+Here again, if you are using the system for the first time, then press 1, and if you are using it from 2nd time onwards then press 2. 
+
+Note: This program allows you to print details that get displayed on your screen (Terminal/Command Line Interface). For example when you
+view the details of a product/item in the system, the program gives you the option to print these details in .txt file. These files are stored 
+inside separate folders (directories) inside the Inventory_Management_System folder (directory). All these separate folders contain one 
+blank text file.
+
+These folders are :
+
+> distributor_details/ : stores all the printouts relating to distributor details
+
+> supplier_details/ : stores all the printouts relating to supplier details
+
+> user_details/ : stores all the printouts relating to user details (user refers to the person currently logged in the system)
+
+> product_details/ : stores all the printouts relating to products
+
+> receival_details/ : stores all the printouts relating to product receivals
+
+> supply_details/ : stores all the printouts relating to product suppplies
+
+> product_transac_details/ : stores all the printouts relating to supplies, receivals and damage/expiry for a particular product
+
+> damage_expiry_details/ : stores all the printouts relating to product damage and expiry records
+
 ABOUT THE PROJECT:
 In many parts of the world, shops and businesses still use manual methods to store their inventory data. However
 storing inventory data is one of the things that is most suited for computers. Using a computer program to store
