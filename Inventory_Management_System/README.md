@@ -87,84 +87,84 @@ There are 3 primary ways that can alter the stock of an item in the warehouse
 
 DETAILS Regarding the Utility Functions:
 
-hash_fun(plaintext): Enables hashing of a plaintext password to a ciphertext for added data security.
+> hash_fun(plaintext): Enables hashing of a plaintext password to a ciphertext for added data security.
 The database contains only the hashed passwords.
 
-hash_compare(pswdd,ciphertext): Compares the plaintext entered by the user with the ciphertext stored in
+> hash_compare(pswdd,ciphertext): Compares the plaintext entered by the user with the ciphertext stored in
 the database. If they match entry into system is allowed.
 
-login(): Allows a Warehouse Employee who has an account in the Inventory Management System to login.
+> login(): Allows a Warehouse Employee who has an account in the Inventory Management System to login.
 
-create_account(): Allows a Warehouse Employee to create a new account in the system.
+> create_account(): Allows a Warehouse Employee to create a new account in the system.
 
-create_product(): Allows creation of a product/item in the system. When a product is created, its stock qty is
+> create_product(): Allows creation of a product/item in the system. When a product is created, its stock qty is
 set to 0 by default.
 
-view_user_details(user_ID): Allows user to view his/her profile details.
+> view_user_details(user_ID): Allows user to view his/her profile details.
 
-edit_user_details(user_ID): Allows user to edit his/her profile details (including password but not the
+> edit_user_details(user_ID): Allows user to edit his/her profile details (including password but not the
   user ID).
 
-view_product(): To view the details of a product/item. Search can be performed on the basis of Item Code or
+> view_product(): To view the details of a product/item. Search can be performed on the basis of Item Code or
 Item Name
 
-edit_product(): To edit the details of a product/item (except the Item Code and the Stock Qty)
+> edit_product(): To edit the details of a product/item (except the Item Code and the Stock Qty)
 
-create_supplier(): To create a new supplier profile
+> create_supplier(): To create a new supplier profile
 
-create_distributor(): To create a new distributor profile
+> create_distributor(): To create a new distributor profile
 
-view_supplier(): To view details of an existing supplier (Search can be performed on the basis of Supplier ID
+> view_supplier(): To view details of an existing supplier (Search can be performed on the basis of Supplier ID
 or Supplier Name)
 
-view_distributor(): To view details of an existing Distributor (Search can be performed on the basis of
+> view_distributor(): To view details of an existing Distributor (Search can be performed on the basis of
 Distributor ID or Distributor Name)
 
-edit_supplier(): To edit details of a supplier (except the Supplier ID)
+> edit_supplier(): To edit details of a supplier (except the Supplier ID)
 
-edit_distributor(): To edit details of a distributor (except the distributor ID)
+> edit_distributor(): To edit details of a distributor (except the distributor ID)
 
-receive_shipment(): To receive a shipment from a supplier
+> receive_shipment(): To receive a shipment from a supplier
 
-supply_shipment(): To supply a shipment to a distributor
+> supply_shipment(): To supply a shipment to a distributor
 
-damaged_or_expired(): To add a record of a product damage/expiry
+> damaged_or_expired(): To add a record of a product damage/expiry
 
 Note: Only 3 functions can alter the stock qty of a product/item. They are receive_shipment(), supply_shipment(),
 and damaged_or_expired()
 
-view_past_transactions(): This is the a menu function that allows user the access of all of the below
+> view_past_transactions(): This is the a menu function that allows user the access of all of the below
 functions. This function basically opens the MENU that provides user with various methods of viewing past records
 
-view_all_past_receivals(): To view all past product receivals
+> view_all_past_receivals(): To view all past product receivals
 
-view_all_past_supply(): To view all past product supplies
+> view_all_past_supply(): To view all past product supplies
 
-past_receivals_interval(): To view past product receivals in a given time interval
+> past_receivals_interval(): To view past product receivals in a given time interval
 
-past_supply_interval(): To view past product supplies in a given time interval
+> past_supply_interval(): To view past product supplies in a given time interval
 
-all_past_product_transactions(): To view all past transactions/records of a product. This
+> all_past_product_transactions(): To view all past transactions/records of a product. This
 includes all past receivals, supplies and damage/expiry of that product
 
-all_past_product_transactions_interval(): To view past transactions/records of a product in a
+> all_past_product_transactions_interval(): To view past transactions/records of a product in a
 given time interval. This includes all past receivals, supplies and damage/expiry of that product
 
-view_all_transactions_supplier(): To view all past receivals from a particular supplier
+> view_all_transactions_supplier(): To view all past receivals from a particular supplier
 
-view_all_transactions_distributor(): To view all past supplies to a particular distributor
+> view_all_transactions_distributor(): To view all past supplies to a particular distributor
 
-view_transactions_supplier_interval(): To view past receivals from a particular supplier in a given time
+> view_transactions_supplier_interval(): To view past receivals from a particular supplier in a given time
 interval
 
-view_transactions_distributor_interval(): To view past supplies to a particular distributor in a given time
+> view_transactions_distributor_interval(): To view past supplies to a particular distributor in a given time
 interval
 
-view_all_damages(): To view all the past product damages and expiry for all products
+> view_all_damages(): To view all the past product damages and expiry for all products
 
-view_damage_product(): To view past product damages for a particular product
+> view_damage_product(): To view past product damages for a particular product
 
-view_damage_product_interval(): To view past product damages for a particular product in a given time
+> view_damage_product_interval(): To view past product damages for a particular product in a given time
 interval
 
 
