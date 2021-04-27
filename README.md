@@ -8,12 +8,12 @@ LANGUAGE USED: Python <br>
 PROJECT TYPE: Command Line Interface <br>
 AUTHOR NAME: Arghyadeep Acharya <br>
 
-### PROJECT STATS:
-Number of lines: 4193
-Number of utility functions: 32
-Number of driver functions : 1 (the main() function)
-Database Used: sqlite3
-Database Type: SQL (and permanent database)
+### PROJECT STATS: <br>
+Number of lines: 4193 <br>
+Number of utility functions: 32 <br>
+Number of driver functions : 1 (the main() function) <br>
+Database Used: sqlite3 <br>
+Database Type: SQL (and permanent database) <br>
 
 
 ### HOW TO INITIATE/RUN PROJECT:
