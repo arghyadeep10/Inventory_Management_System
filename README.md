@@ -44,8 +44,8 @@ This new version skips the command line arguments and provides you with the foll
 >Welcome
 >Choose from the below options to continue:
 >1. Generate database
->2. Use system
->Q. Exit
+>2. Use system <br>
+>Q. Exit <br>
 >Enter your choice:
 
 Here again, if you are using the system for the first time, then press 1, and if you are using it from 2nd time onwards then press 2. 
