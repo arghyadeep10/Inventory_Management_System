@@ -1,19 +1,22 @@
+# Inventory_Management_System
+This Inventory Management System, written in Python (and using SQLite3 database) allows a warehouse to manage and maintain its inventory, monitor its products, their stock quantity, its list of suppliers and distributor, and also past records of supplies, receivals and damages.
+
 <h1>PROJECT DOCUMENTATION</h1>
 
-PROJECT NAME: Inventory Management System
-LANGUAGE USED: Python
-PROJECT TYPE: Command Line Interface
-AUTHOR NAME: Arghyadeep Acharya
+PROJECT NAME: Inventory Management System <br>
+LANGUAGE USED: Python <br>
+PROJECT TYPE: Command Line Interface <br>
+AUTHOR NAME: Arghyadeep Acharya <br>
 
-<h3>PROJECT STATS:</h3>
-Number of lines: 4193
-Number of utility functions: 32
-Number of driver functions : 1 (the main() function)
-Database Used: sqlite3
-Database Type: SQL (and permanent database)
+### PROJECT STATS: <br>
+Number of lines: 4193 <br>
+Number of utility functions: 32 <br>
+Number of driver functions : 1 (the main() function) <br>
+Database Used: sqlite3 <br>
+Database Type: SQL (and permanent database) <br>
 
 
-<h3>HOW TO INITIATE/RUN PROJECT:</h3>
+### HOW TO INITIATE/RUN PROJECT:
 Install Python 3 on your machine
 Open Terminal in your machine
   1. Clone the project and store it in your computer
@@ -29,7 +32,6 @@ Open Terminal in your machine
           to initiate the system:
           $ python main_prog.py use
 
-
 Note: The main_prog.py file runs on the basis of command line arguments. This was a first version of this project. However later I discovered that 
 it can be difficult to run a program with command line arguments inside an IDE when user clicks the run button inside their IDE and doesn't use the
 command line/terminal. Hence I have created a new version. This file is called main_prog_IDE_version.py
@@ -38,12 +40,13 @@ After you clone the Inventory_Management_System project to your computer, you ca
 Properties. There inside General setting go to option of startup file and enter "main_prog_IDE_version.py". Now when you click the run button,
 your IDE will run this file "main_prog_IDE_version.py" instead of "main_prog.py"
 This new version skips the command line arguments and provides you with the following menu:
->Welcome
->Choose from the below options to continue:
->1. Generate database
->2. Use system
->Q. Exit
->Enter your choice:
+
+>Welcome <br>
+>Choose from the below options to continue: <br>
+>1.Generate database <br>
+>2.Use system <br>
+>Q.Exit <br> <br>
+>Enter your choice: <br>
 
 Here again, if you are using the system for the first time, then press 1, and if you are using it from 2nd time onwards then press 2. 
 
@@ -70,7 +73,8 @@ These folders are :
 
 > damage_expiry_details/ : stores all the printouts relating to product damage and expiry records
 
-<h3>ABOUT THE PROJECT:</h3>
+
+### ABOUT THE PROJECT:
 In many parts of the world, shops and businesses still use manual methods to store their inventory data. However
 storing inventory data is one of the things that is most suited for computers. Using a computer program to store
 this data has a lot of benefits:
