@@ -3,10 +3,10 @@ This Inventory Management System, written in Python (and using SQLite3 database)
 
 <h1>PROJECT DOCUMENTATION</h1>
 
-PROJECT NAME: Inventory Management System
-LANGUAGE USED: Python
-PROJECT TYPE: Command Line Interface
-AUTHOR NAME: Arghyadeep Acharya
+PROJECT NAME: Inventory Management System <br>
+LANGUAGE USED: Python <br>
+PROJECT TYPE: Command Line Interface <br>
+AUTHOR NAME: Arghyadeep Acharya <br>
 
 ### PROJECT STATS:
 Number of lines: 4193
