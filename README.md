@@ -41,11 +41,11 @@ Properties. There inside General setting go to option of startup file and enter 
 your IDE will run this file "main_prog_IDE_version.py" instead of "main_prog.py"
 This new version skips the command line arguments and provides you with the following menu:
 
->Welcome
+>Welcome <br>
 >Choose from the below options to continue: <br>
 >1.Generate database <br>
 >2.Use system <br>
->Q.Exit <br>
+>Q.Exit <br> <br>
 >Enter your choice: <br>
 
 Here again, if you are using the system for the first time, then press 1, and if you are using it from 2nd time onwards then press 2. 
