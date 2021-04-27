@@ -216,3 +216,5 @@ Disclaimer:
 This Project and all of its components is for educational purposes only.
 All the names, IDs and content that have been shown in this project/video explanations for
 this project are all fictitious. They are just for the sake of demonstration of the project.
+It is solely for a personal educational purposes only and is meant to be a Personal Educational project and not a commercial entity.
+The source code of this project (Inventory Management System) has been made public in Github (since it is a Personal Educational project), however any type of misuse of the app and its source code is not permitted.
